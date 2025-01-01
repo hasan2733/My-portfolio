@@ -1,0 +1,197 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #6a1b9a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribute space between content */
+    align-items: center; /* Vertically center content */
+  }
+  
+  .header-container {
+    text-align: left; /* Align name and contact to the left */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .profile_name {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  /* Section Styles */
+  .section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Section */
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-image {
+    width: 180px; /* Adjusted to a more appropriate size */
+    height: 180px; /* Maintain aspect ratio */
+    border-radius: 50%;
+    border: 3px solid #6a1b9a;
+    object-fit: cover;
+  }
+  
+  /* Skills Section */
+  .skills-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .skill-card {
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-icon {
+    width: 60px; /* Adjusted icon size */
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  /* Education Section */
+  .education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .education-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .education-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* Recommendation Section */
+  .recommendation-input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .recommendation-input textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    resize: vertical;
+  }
+  
+  #recommend_btn {
+    background: #6a1b9a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  #recommend_btn:hover {
+    background: #8e24aa; /* Darker shade on hover */
+  }
+  
+  /* Modal (Popup) Styles */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
