@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="home">
+    <div class="header-container">
+      <h1 class="profile_name">Abid Hasan</h1>
+      <p>hasan.tng33@gmail.com | 01315015034</p>
+    </div>
+    <nav>
+      <ul class="topmenu">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="section">
+    <h2>Hi, I'm Abid Hasan! 👋</h2>
+    <div class="about-container">
+      <img src="abid2.jpg" alt="Jane Doe" class="profile-image">
+      <p>
+        Passionate second-year CSE student at Southeast University, diving deep into Data Structures & Algorithms and mastering Object-Oriented Programming in Java to solve complex real-world problems
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML" class="skill-icon">
+        <p>HTML<br>0.5 years experience</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" class="skill-icon">
+        <p>JavaScript<br>0.1 years experience</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java" class="skill-icon">
+        <p>Java<br>0.1 years experience</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React" class="skill-icon">
+        <p>React<br>0 year experience</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Node.js" class="skill-icon">
+        <p>Node.js<br>0 year experience</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Personal Portfolio</strong><br>
+        Developed a secure website using HTML, CSS, JavaScript.
+      </li>
+      <li>
+        <strong>Bmi calculator</strong><br>
+        Developed a simple bmi calculator using python and gui.
+      </li>
+      <li>
+        <strong>Snake Game</strong><br>
+        Developed a simple bmi calculator using C.
+      </li>
+    </ul>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="education-container">
+      <div class="education-card">
+        <h3>Southeast University</h3>
+        <p>Bachelor of Computer Science (2023 - 2027)</p>
+        <p>Focusing on full-stack development and cloud computing.</p>
+        <p>Current CGPA 4.00</p>
+      </div>
+      <div class="education-card">
+        <h3>Major General Mahamudul Hasan Adarsha College </h3>
+        <p>HSC 2022</p>
+        <p>Graduated with a focus on science and mathematics, excelling in programming-related subjects.</p>
+        <p>GPA 5.00</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="recommendations" class="section">
+    <h2>Recommendations</h2>
+    <div class="recommendation-card">Abid is a very quick learner and quickly grasps key concepts of web development...</div>
+    <div class="recommendation-card">Working with Abid has been an awesome experience...</div>
+    <div class="recommendation-card">I had worked along with Abid during the initial phase of our venture...</div>
+    <div class="recommendation-input">
+      <textarea id="recommendation_input" placeholder="Leave a recommendation..." rows="4"></textarea>
+      <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Portfolio</p>
+  </footer>
+
+  <!-- Modal -->
+  <div id="confirmationModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Your recommendation has been submitted!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
