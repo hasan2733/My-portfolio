@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- EmailJS SDK -->
 </head>
 <body>
   <header id="home">
@@ -30,7 +31,7 @@
       <p>
         I am a second-year Computer Science and Engineering student at Southeast University, currently honing my skills in data structures and algorithms. I am deeply curious about the ever-evolving field of computer science and eager to explore various domains, including artificial intelligence, data science, software engineering, computer networks, and the Internet of Things (IoT).
         <br>
-       My goal is to build a strong foundation in core concepts while continuously expanding my knowledge to tackle real-world challenges. Open to learning, collaborating, and contributing to impactful projects.
+        My goal is to build a strong foundation in core concepts while continuously expanding my knowledge to tackle real-world challenges. Open to learning, collaborating, and contributing to impactful projects.
       </p>
     </div>
   </section>
@@ -70,7 +71,7 @@
       </li>
       <li>
         <strong>Bmi calculator</strong><br>
-        Developed a simple bmi calculator using python and gui.
+        Developed a simple BMI calculator using Python and GUI.
       </li>
       <li>
         <strong>Snake Game</strong><br>
@@ -94,22 +95,30 @@
         <p>Graduated with a focus on science and mathematics, excelling in programming-related subjects.</p>
         <p>GPA 5.00</p>
       </div>
+      <div class="education-card">
+      <h3>Bindubasini Govt. Boys' High School, Tangail</h3>
+      <p>SSC 2020</p>
+      <p>Graduated with a focus on science and mathematics.</p>
+      <p>GPA 5.00</p>
+    </div>
     </div>
   </section>
 
   <section id="mail-me" class="section">
     <h2>Mail Me</h2>
     <p>If you have any opinions, feedback, or recommendations, feel free to reach out via email.</p>
-    <a href="mailto:hasan.tng33@gmail.com?subject=Feedback for Your Portfolio" class="mail-button">
-      Click to Send Me an Email
-    </a>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="mail-button">Send Message</button>
+    </form>
+    <p id="response-message"></p>
   </section>
 
   <footer>
     <p>&copy; 2025 Portfolio</p>
   </footer>
-
- 
 
   <script src="script.js"></script>
 </body>
