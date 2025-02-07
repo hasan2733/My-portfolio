@@ -3,13 +3,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    background: #50b1e2;
+    color: #191960;
   }
   
   header {
-    background: #6a1b9a;
-    color: #fff;
+    background: #1b9a9a;
+    color: #133f81;
     padding: 20px;
     display: flex;
     justify-content: space-between; /* Distribute space between content */
@@ -74,9 +74,9 @@ body {
     width: 150px;
     padding: 15px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #4c6f1a;
     border-radius: 10px;
-    background: #fff;
+    background: #1ba771;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
   
@@ -94,11 +94,11 @@ body {
   }
   
   .education-card {
-    background: #fff;
+    background: #1d7e72;
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #1b2423;
+    box-shadow: 0 0 5px rgba(59, 44, 44, 0.1);
   }
   
   .education-card h3 {
@@ -124,7 +124,7 @@ body {
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #432323;
     font-size: 14px;
     resize: vertical;
   }
@@ -187,7 +187,7 @@ body {
   }
   .mail-button {
     display: inline-block;
-    background: #6a1b9a;
+    background: #237d66;
     color: white;
     padding: 12px 20px;
     border-radius: 5px;
@@ -195,7 +195,7 @@ body {
 }
 
 .mail-button:hover {
-    background: #8e24aa;
+    background: #2479aa;
 }
 
   /* Footer Styles */
