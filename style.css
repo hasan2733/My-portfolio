@@ -55,8 +55,8 @@ body {
   }
   
   .profile-image {
-    width: 180px; /* Adjusted to a more appropriate size */
-    height: 180px; /* Maintain aspect ratio */
+    width: 300px; /* Adjusted to a more appropriate size */
+    height: 150px; /* Maintain aspect ratio */
     border-radius: 50%;
     border: 3px solid #6a1b9a;
     object-fit: cover;
